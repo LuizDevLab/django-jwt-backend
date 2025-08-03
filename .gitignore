@@ -1,0 +1,45 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+.env
+.env.*
+
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+*.pot
+
+# Arquivos de banco SQLite
+*.sqlite3
+*.db
+
+# Arquivos de configuração pessoais
+.DS_Store
+*.pem
+
+# Compilados/Migrations
+*.pyc
+*.pyo
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Arquivos do Django
+local_settings.py
+db.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+
+# Testes e debug
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
